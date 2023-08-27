@@ -72,30 +72,16 @@ h1 {
     cursor:pointer;
     color: orange;
 }
-.all-button {
+.nav-buttons {
     color: white;
     background-color:#404BBF;
     border: 1px solid #E7E9FC;
+    box-sizing: border-box;
+    display:inline-flex;
+    flex-wrap: wrap
 }
-.website-button {
-    color: #404BBF;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-}
-.app-button {
-    color: #404BBF;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-}
-.design-button {
-    color: #404BBF;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-}
-.marketing-button {
-    color: #404BBF;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+.nav-button {
+    
 }
 body {
     font-family: 'Roboto', sans-serif;
