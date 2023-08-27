@@ -72,10 +72,6 @@ h1 {
     cursor: pointer;
     color: orange;
 }
-.nav-buttons:hover {
-    cursor:pointer;
-    color: orange;
-}
 .nav-buttons {
     text-align: center;
     box-sizing: border-box;
@@ -83,6 +79,10 @@ h1 {
     padding: 20px;
     margin-left: 407px;
     gap: 25px;
+}
+.nav-button:hover {
+    cursor:pointer;
+    color: orange;
 }
 .nav-button {
     color: #4D5AE5;
