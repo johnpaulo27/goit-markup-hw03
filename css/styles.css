@@ -8,12 +8,14 @@
 }
 .logo span:first-child {
     color: #4D5AE5;
+    text-align: center;
 }
 .logo span:last-child {
     color: #2E2F42;
+    text-align: center;
 }
 header {
-    margin-left: 50px;
+    margin-left: 25px;
     align-items: center;
     display: inline-flex;
 }
@@ -35,7 +37,7 @@ header {
 }
 .address-menu {
     display: inline-flex;
-    margin-left: 342px;
+    margin-left: 200px;
     padding: 10px 10px;
     gap: 40px;
 }
