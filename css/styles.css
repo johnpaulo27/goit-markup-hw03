@@ -73,15 +73,29 @@ h1 {
     color: orange;
 }
 .nav-buttons {
-    color: white;
-    background-color:#404BBF;
-    border: 1px solid #E7E9FC;
+    text-align: center;
     box-sizing: border-box;
     display:inline-flex;
-    flex-wrap: wrap
+    padding: 20px;
+    margin-left: 407px;
+    gap: 25px;
 }
 .nav-button {
-    
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    background-color: #F4F4FD;
+    box-sizing: border-box;
+    display:inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 24px;
+}
+.all-button {
+    color: white;
+    background-color: #404BBF;
+
+
+
 }
 body {
     font-family: 'Roboto', sans-serif;
