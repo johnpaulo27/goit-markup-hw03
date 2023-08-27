@@ -7,10 +7,12 @@
     list-style-type: none;
 }
 .logo span:first-child {
+    font-weight: 18px;
     color: #4D5AE5;
     text-align: center;
 }
 .logo span:last-child {
+    font-weight: 18px;
     color: #2E2F42;
     text-align: center;
 }
