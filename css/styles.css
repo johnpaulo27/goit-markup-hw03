@@ -56,12 +56,14 @@ h1 {
 .button {
     background-color: #4D5AE5;
     color:white;
+    border-radius: 4px;
     cursor: pointer;
     margin-left: 160px;
 }
 .buttons {
     list-style-type: none;
     padding: 32px 16px;
+    border-radius: 4px;
     display: inline-flex;
     margin-left: 373px;
     gap: 48px;
@@ -70,7 +72,7 @@ h1 {
     cursor: pointer;
     color: orange;
 }
-.buttons:hover {
+.nav-buttons:hover {
     cursor:pointer;
     color: orange;
 }
@@ -87,6 +89,7 @@ h1 {
     border: 1px solid #E7E9FC;
     background-color: #F4F4FD;
     box-sizing: border-box;
+    border-radius: 4px;
     display:inline-flex;
     flex-wrap: wrap;
     text-align: center;
@@ -95,6 +98,7 @@ h1 {
 .all-button {
     color: white;
     background-color: #404BBF;
+    border-radius: 4px;
 
 
 
