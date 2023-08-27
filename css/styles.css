@@ -1,0 +1,165 @@
+* {
+    line-height: 1;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+}
+.logo span:first-child {
+    color: #4D5AE5;
+}
+.logo span:last-child {
+    color: #2E2F42;
+}
+header {
+    margin-left: 50px;
+    align-items: center;
+    display: inline-flex;
+}
+.nav-menu {
+    align-items: center;
+    display: inline-flex;
+}
+.menu-item {
+    margin-left: 76px;
+    display: inline-flex;
+    padding: 10px 10px;
+    gap: 40px;
+}
+.menu-item-list {
+    color: black;
+}
+.address-menu-item {
+    color: black;
+}
+.address-menu {
+    display: inline-flex;
+    margin-left: 342px;
+    padding: 10px 10px;
+    gap: 40px;
+}
+.hero {
+    background: #2E2F42;
+    padding: 188px 372px;   
+}
+h1 {
+    font-family: 'roboto', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    color:white;
+}
+.button {
+    background-color: #4D5AE5;
+    color:white;
+    cursor: pointer;
+    margin-left: 160px;
+}
+.buttons {
+    list-style-type: none;
+    padding: 32px 16px;
+    display: inline-flex;
+    margin-left: 373px;
+    gap: 48px;
+}
+.button:hover {
+    cursor: pointer;
+    color: orange;
+}
+.buttons:hover {
+    cursor:pointer;
+    color: orange;
+}
+.all-button {
+    color: white;
+    background-color:#404BBF;
+    border: 1px solid #E7E9FC;
+}
+.website-button {
+    color: #404BBF;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+}
+.app-button {
+    color: #404BBF;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+}
+.design-button {
+    color: #404BBF;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+}
+.marketing-button {
+    color: #404BBF;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h2 {
+    font-size: 16px;
+}
+.feature {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.features {
+    display: flex;
+    padding: 80px 120px ;
+}
+.transactions {
+    text-align: center;
+}
+.transaction-item {
+    display: inline-flex;
+    gap: 10px;
+}
+.this-is-our-team {
+    text-align: center;
+}
+.bulletless-list {
+    text-align: center;
+    display: inline-flex;
+    gap: 24px;
+}
+.footer-section {
+    background-color: #2E2F42;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+footer a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+.second-logo span:first-child {
+    text-decoration: none;
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4D5AE5;  
+}
+.second-logo span:last-child {
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+.our-team {
+    margin-top: 120px;
+    background-color:#F4F4FD;
+}
+.footer-section {
+    color: white;
+}
+.project-card-list {
+    box-sizing: border-box;
+    display:inline-flex;
+    flex-wrap: wrap
+}
