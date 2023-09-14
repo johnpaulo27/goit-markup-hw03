@@ -45,7 +45,7 @@ header {
 }
 .hero {
     background: #2E2F42;
-    padding: 188px 372px;   
+    padding: 188px 472px;   
 }
 h1 {
     font-family: 'roboto', sans-serif;
@@ -55,6 +55,7 @@ h1 {
 }
 .button {
     background-color: #4D5AE5;
+    padding: 16px 32px;
     color:white;
     border-radius: 4px;
     cursor: pointer;
@@ -99,9 +100,6 @@ h1 {
     color: white;
     background-color: #404BBF;
     border-radius: 4px;
-
-
-
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -162,6 +160,7 @@ footer a {
 .our-team {
     margin-top: 120px;
     background-color:#F4F4FD;
+    text-align: center;
 }
 .footer-section {
     color: white;
@@ -169,5 +168,5 @@ footer a {
 .project-card-list {
     box-sizing: border-box;
     display:inline-flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
