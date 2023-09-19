@@ -1,20 +1,44 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navyblue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
 * {
-    line-height: 1;
-    font-family:'Raleway', sans-serif;
-    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p.ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+}
+a {
     text-decoration: none;
-    font-style: normal;
-    list-style-type: none;
 }
-.logo span:first-child {
-    font-weight: 18px;
-    color: #4D5AE5;
-    text-align: center;
-}
-.logo span:last-child {
-    font-weight: 18px;
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
     color: #2E2F42;
-    text-align: center;
+    background-color: #ffff;    
+}
+.logo-link {
+    color:var(--iris)
+    font-family: Raleway; sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
 }
 header {
     margin-left: 25px;
@@ -169,4 +193,6 @@ footer a {
     box-sizing: border-box;
     display:inline-flex;
     flex-wrap: wrap;
+    margin-left: 156px
+    text-align: center;
 }
