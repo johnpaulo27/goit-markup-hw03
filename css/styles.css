@@ -34,38 +34,60 @@ body {
     background-color: #ffff;    
 }
 .logo-link {
-    color:var(--iris)
+    color:var(--iris);
     font-family: Raleway; sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.2;
 }
-header {
-    margin-left: 25px;
-    align-items: center;
-    display: inline-flex;
+.logo-black {
+    color: var(--navyblue);
 }
-.nav-menu {
+.logo-white {
+    color: var(--white);
+}
+.menu-item,
+.menu-item-list,
+.address-menu,
+.address-menu-item,
+.navigation { 
+    display: flex;
     align-items: center;
-    display: inline-flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .menu-item {
-    margin-left: 76px;
-    display: inline-flex;
-    padding: 10px 10px;
-    gap: 40px;
-}
-.menu-item-list {
-    color: black;
-}
-.address-menu-item {
-    color: black;
+    margin-left: 93px;
 }
 .address-menu {
-    display: inline-flex;
-    margin-left: 200px;
-    padding: 10px 10px;
-    gap: 40px;
+    margin-left: auto;
+}
+.menu-item-list,
+.address-menu-item {
+    margin-right: 50px;
+}
+.menu-item-list .menu-item-list:not(:last-child),
+.address-menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+.menu-item-list:hover,
+.menu-item-list:focus {
+    color: var(--ocean);
+}
+.address-menu-list:hover,
+.address-menu-list:focus {
+    color: var(--ocean);
+}
+.container {
+    width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .hero {
     background: #2E2F42;
