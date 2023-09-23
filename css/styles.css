@@ -230,6 +230,7 @@ body {
 .project-text {
     color: var(--navyblue);
     padding: 0px 16px;
+    gap: 8px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
