@@ -227,7 +227,7 @@ body {
     border: 1px solid var(--cornflower);
     border-top: none;
 }
-.description {
+.project-text {
     color: var(--navyblue);
     padding: 0px 16px;
     font-weight: 500;
